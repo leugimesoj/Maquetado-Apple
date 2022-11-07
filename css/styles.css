@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  border: 1px white solid;
+  width: 65%;
+  justify-content: space-between;
+  margin-left: 18%;
+}
+header {
+  background-color: black;
+  display: flex;
+}
+.ul-navbar{
+    width: 100%;
+}
+.li-navbar {
+  border: 1px red solid;
+  float: left;
+  list-style: none;
+  width: 7.54%;
+}
+.li-navbar a {
+  color: white;
+  text-decoration: none;
+
+  
+
+}
