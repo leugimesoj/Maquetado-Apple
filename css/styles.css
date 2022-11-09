@@ -4,28 +4,56 @@
 }
 nav {
   display: flex;
-  border: 1px white solid;
+  height: 50px;
   width: 65%;
   justify-content: space-between;
-  margin-left: 18%;
+  margin-left: 16.7%;
 }
 header {
   background-color: black;
   display: flex;
+  
 }
-.ul-navbar{
-    width: 100%;
+.ul-navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 .li-navbar {
-  border: 1px red solid;
   float: left;
   list-style: none;
-  width: 7.54%;
+  width: 8.5%;
+  text-align: center;
+  white-space: pre;
+}
+.li-navbar-img {
+  list-style: none;
+  width: 2.83%;
+  text-align: end;
+  margin-left: 2%;
 }
 .li-navbar a {
   color: white;
   text-decoration: none;
+  font-family: sans-serif;
+  font-size: small;
+}
+.li-navbar-logo {
+  list-style: none;
+  width: 2.83%;
+  text-align: start;
+  margin-right: 2%;
+}
+main{
+  border: 1px black solid;
+  width: 100%;
+  height: 50px;
+}
+.nav-dinamica {
+  color: black;
+  font-family: sans-serif;
+}
 
-  
-
+.li-nav-dinamica{
+list-style: none;
 }
